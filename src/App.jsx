@@ -31,7 +31,7 @@ function App() {
     setLoading(true);
     try {
       const res = await axios.post(
-        "http://localhost:5000/claim",
+        "https://couponapi-er7a.onrender.com/claim",
         {},
         { withCredentials: true }
       );
